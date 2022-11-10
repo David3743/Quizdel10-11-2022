@@ -1,13 +1,12 @@
-riosPrincipales = { "rios":{"Nilo","Amazonas","Magdalena","Mississippi","Yangtaze Kiang"}, "paises":{"Egipto","Latinoamerica","Colombia","Estados unidos","China"}}
+riosPrincipales = { "Egipto":"Nilo","Latinoamerica":"Amazonas","Colombia":"Magdalena","Estados unidos":"Mississippi","China":"Yangtaze Kiang"}
 #Primer punto
-for i in riosPrincipales["paises"]:
-    for a in riosPrincipales["rios"]:
-        print(a + " Es un rio ubicado en " + i)
+for i in riosPrincipales:
+    print(riosPrincipales[i] + " esta ubicando en: " + i )
 print("-----------------")
 #SegundoPunto
-for i in riosPrincipales["rios"]:
-    print(i)
+for i in riosPrincipales:
+    print(riosPrincipales[i])
 print("-------------------")
 #Tercer punto
-for i in riosPrincipales["paises"]:
+for i in riosPrincipales:
     print(i)
